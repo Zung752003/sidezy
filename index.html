@@ -45,6 +45,10 @@
 </head>
 
 <body>
+    <!-- <div class="my-controls">
+        <button class="slide-prev">Prev</button>
+        <button class="slide-next">Next</button>
+    </div> -->
     <div id="my-slider">
         <div class="slide-1">Slide 1</div>
         <div class="slide-2">Slide 2</div>
@@ -58,6 +62,7 @@
         const mySlider = new Slidezy("#my-slider", {
             items: 3,
             loop: true,
+            slideBy: "page",
         });
     </script>
 </body>
